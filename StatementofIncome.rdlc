@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.07938cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>1.04979cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Reciept Date</Value>
+                              <Style>
+                                <FontFamily>BN Dragon</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#869286</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#708270</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="RecieptDate">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!RecieptDate.Value</Value>
+                              <Style>
+                                <FontFamily>Calibri Light</FontFamily>
+                                <FontSize>11pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>RecieptDate</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#a2d1a4</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <TablixHeader>
+                <Size>1.46812cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox33">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>Member ID</Value>
+                            <Style>
+                              <FontFamily>BN Dragon</FontFamily>
+                              <FontSize>11pt</FontSize>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox33</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>#869286</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#708270</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>3.53188cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox31">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Member Name</Value>
+                                <Style>
+                                  <FontFamily>BN Dragon</FontFamily>
+                                  <FontSize>11pt</FontSize>
+                                  <Color>White</Color>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox31</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>#869286</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#708270</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember>
+                      <TablixHeader>
+                        <Size>1.89146cm</Size>
+                        <CellContents>
+                          <Textbox Name="Textbox29">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>Wasiyyat</Value>
+                                    <Style>
+                                      <FontFamily>BN Dragon</FontFamily>
+                                      <FontSize>11pt</FontSize>
+                                      <Color>White</Color>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style />
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Textbox29</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>#869286</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <BackgroundColor>#708270</BackgroundColor>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                      <TablixMembers>
+                        <TablixMember>
+                          <TablixHeader>
+                            <Size>1.65333cm</Size>
+                            <CellContents>
+                              <Textbox Name="Textbox27">
+                                <CanGrow>true</CanGrow>
+                                <KeepTogether>true</KeepTogether>
+                                <Paragraphs>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>Chanda Aam</Value>
+                                        <Style>
+                                          <FontFamily>BN Dragon</FontFamily>
+                                          <FontSize>11pt</FontSize>
+                                          <Color>White</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                </Paragraphs>
+                                <rd:DefaultName>Textbox27</rd:DefaultName>
+                                <Style>
+                                  <Border>
+                                    <Color>#869286</Color>
+                                    <Style>Solid</Style>
+                                  </Border>
+                                  <BackgroundColor>#708270</BackgroundColor>
+                                  <PaddingLeft>2pt</PaddingLeft>
+                                  <PaddingRight>2pt</PaddingRight>
+                                  <PaddingTop>2pt</PaddingTop>
+                                  <PaddingBottom>2pt</PaddingBottom>
+                                </Style>
+                              </Textbox>
+                            </CellContents>
+                          </TablixHeader>
+                          <TablixMembers>
+                            <TablixMember>
+                              <TablixHeader>
+                                <Size>1.52104cm</Size>
+                                <CellContents>
+                                  <Textbox Name="Textbox25">
+                                    <CanGrow>true</CanGrow>
+                                    <KeepTogether>true</KeepTogether>
+                                    <Paragraphs>
+                                      <Paragraph>
+                                        <TextRuns>
+                                          <TextRun>
+                                            <Value>Jalsa Salana</Value>
+                                            <Style>
+                                              <FontFamily>BN Dragon</FontFamily>
+                                              <FontSize>11pt</FontSize>
+                                              <Color>White</Color>
+                                            </Style>
+                                          </TextRun>
+                                        </TextRuns>
+                                        <Style />
+                                      </Paragraph>
+                                    </Paragraphs>
+                                    <rd:DefaultName>Textbox25</rd:DefaultName>
+                                    <Style>
+                                      <Border>
+                                        <Color>#869286</Color>
+                                        <Style>Solid</Style>
+                                      </Border>
+                                      <BackgroundColor>#708270</BackgroundColor>
+                                      <PaddingLeft>2pt</PaddingLeft>
+                                      <PaddingRight>2pt</PaddingRight>
+                                      <PaddingTop>2pt</PaddingTop>
+                                      <PaddingBottom>2pt</PaddingBottom>
+                                    </Style>
+                                  </Textbox>
+                                </CellContents>
+                              </TablixHeader>
+                              <TablixMembers>
+                                <TablixMember>
+                                  <TablixHeader>
+                                    <Size>1.07125cm</Size>
+                                    <CellContents>
+                                      <Textbox Name="Textbox23">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>WJ</Value>
+                                                <Style>
+                                                  <FontFamily>BN Dragon</FontFamily>
+                                                  <FontSize>11pt</FontSize>
+                                                  <Color>White</Color>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox23</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Color>#869286</Color>
+                                            <Style>Solid</Style>
+                                          </Border>
+                                          <BackgroundColor>#708270</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixHeader>
+                                  <TablixMembers>
+                                    <TablixMember>
+                                      <TablixHeader>
+                                        <Size>1.01833cm</Size>
+                                        <CellContents>
+                                          <Textbox Name="Textbox21">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>TJ</Value>
+                                                    <Style>
+                                                      <FontFamily>BN Dragon</FontFamily>
+                                                      <FontSize>11pt</FontSize>
+                                                      <Color>White</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox21</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Color>#869286</Color>
+                                                <Style>Solid</Style>
+                                              </Border>
+                                              <BackgroundColor>#708270</BackgroundColor>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixHeader>
+                                      <TablixMembers>
+                                        <TablixMember>
+                                          <TablixHeader>
+                                            <Size>1.865cm</Size>
+                                            <CellContents>
+                                              <Textbox Name="Textbox19">
+                                                <CanGrow>true</CanGrow>
+                                                <KeepTogether>true</KeepTogether>
+                                                <Paragraphs>
+                                                  <Paragraph>
+                                                    <TextRuns>
+                                                      <TextRun>
+                                                        <Value>Sadaqah</Value>
+                                                        <Style>
+                                                          <FontFamily>BN Dragon</FontFamily>
+                                                          <FontSize>11pt</FontSize>
+                                                          <Color>White</Color>
+                                                        </Style>
+                                                      </TextRun>
+                                                    </TextRuns>
+                                                    <Style />
+                                                  </Paragraph>
+                                                </Paragraphs>
+                                                <rd:DefaultName>Textbox19</rd:DefaultName>
+                                                <Style>
+                                                  <Border>
+                                                    <Color>#869286</Color>
+                                                    <Style>Solid</Style>
+                                                  </Border>
+                                                  <BackgroundColor>#708270</BackgroundColor>
+                                                  <PaddingLeft>2pt</PaddingLeft>
+                                                  <PaddingRight>2pt</PaddingRight>
+                                                  <PaddingTop>2pt</PaddingTop>
+                                                  <PaddingBottom>2pt</PaddingBottom>
+                                                </Style>
+                                              </Textbox>
+                                            </CellContents>
+                                          </TablixHeader>
+                                          <TablixMembers>
+                                            <TablixMember>
+                                              <TablixHeader>
+                                                <Size>1.55126cm</Size>
+                                                <CellContents>
+                                                  <Textbox Name="Textbox17">
+                                                    <CanGrow>true</CanGrow>
+                                                    <KeepTogether>true</KeepTogether>
+                                                    <Paragraphs>
+                                                      <Paragraph>
+                                                        <TextRuns>
+                                                          <TextRun>
+                                                            <Value>Eid Fund</Value>
+                                                            <Style>
+                                                              <FontFamily>BN Dragon</FontFamily>
+                                                              <FontSize>11pt</FontSize>
+                                                              <Color>White</Color>
+                                                            </Style>
+                                                          </TextRun>
+                                                        </TextRuns>
+                                                        <Style />
+                                                      </Paragraph>
+                                                    </Paragraphs>
+                                                    <rd:DefaultName>Textbox17</rd:DefaultName>
+                                                    <Style>
+                                                      <Border>
+                                                        <Color>#869286</Color>
+                                                        <Style>Solid</Style>
+                                                      </Border>
+                                                      <BackgroundColor>#708270</BackgroundColor>
+                                                      <PaddingLeft>2pt</PaddingLeft>
+                                                      <PaddingRight>2pt</PaddingRight>
+                                                      <PaddingTop>2pt</PaddingTop>
+                                                      <PaddingBottom>2pt</PaddingBottom>
+                                                    </Style>
+                                                  </Textbox>
+                                                </CellContents>
+                                              </TablixHeader>
+                                              <TablixMembers>
+                                                <TablixMember>
+                                                  <TablixHeader>
+                                                    <Size>1.5475cm</Size>
+                                                    <CellContents>
+                                                      <Textbox Name="Textbox15">
+                                                        <CanGrow>true</CanGrow>
+                                                        <KeepTogether>true</KeepTogether>
+                                                        <Paragraphs>
+                                                          <Paragraph>
+                                                            <TextRuns>
+                                                              <TextRun>
+                                                                <Value>Fitrana</Value>
+                                                                <Style>
+                                                                  <FontFamily>BN Dragon</FontFamily>
+                                                                  <FontSize>11pt</FontSize>
+                                                                  <Color>White</Color>
+                                                                </Style>
+                                                              </TextRun>
+                                                            </TextRuns>
+                                                            <Style />
+                                                          </Paragraph>
+                                                        </Paragraphs>
+                                                        <rd:DefaultName>Textbox15</rd:DefaultName>
+                                                        <Style>
+                                                          <Border>
+                                                            <Color>#869286</Color>
+                                                            <Style>Solid</Style>
+                                                          </Border>
+                                                          <BackgroundColor>#708270</BackgroundColor>
+                                                          <PaddingLeft>2pt</PaddingLeft>
+                                                          <PaddingRight>2pt</PaddingRight>
+                                                          <PaddingTop>2pt</PaddingTop>
+                                                          <PaddingBottom>2pt</PaddingBottom>
+                                                        </Style>
+                                                      </Textbox>
+                                                    </CellContents>
+                                                  </TablixHeader>
+                                                  <TablixMembers>
+                                                    <TablixMember>
+                                                      <TablixHeader>
+                                                        <Size>1.30938cm</Size>
+                                                        <CellContents>
+                                                          <Textbox Name="Textbox13">
+                                                            <CanGrow>true</CanGrow>
+                                                            <KeepTogether>true</KeepTogether>
+                                                            <Paragraphs>
+                                                              <Paragraph>
+                                                                <TextRuns>
+                                                                  <TextRun>
+                                                                    <Value>Zakat</Value>
+                                                                    <Style>
+                                                                      <FontFamily>BN Dragon</FontFamily>
+                                                                      <FontSize>11pt</FontSize>
+                                                                      <Color>White</Color>
+                                                                    </Style>
+                                                                  </TextRun>
+                                                                </TextRuns>
+                                                                <Style />
+                                                              </Paragraph>
+                                                            </Paragraphs>
+                                                            <rd:DefaultName>Textbox13</rd:DefaultName>
+                                                            <Style>
+                                                              <Border>
+                                                                <Color>#869286</Color>
+                                                                <Style>Solid</Style>
+                                                              </Border>
+                                                              <BackgroundColor>#708270</BackgroundColor>
+                                                              <PaddingLeft>2pt</PaddingLeft>
+                                                              <PaddingRight>2pt</PaddingRight>
+                                                              <PaddingTop>2pt</PaddingTop>
+                                                              <PaddingBottom>2pt</PaddingBottom>
+                                                            </Style>
+                                                          </Textbox>
+                                                        </CellContents>
+                                                      </TablixHeader>
+                                                      <TablixMembers>
+                                                        <TablixMember>
+                                                          <TablixHeader>
+                                                            <Size>1.98437cm</Size>
+                                                            <CellContents>
+                                                              <Textbox Name="Textbox11">
+                                                                <CanGrow>true</CanGrow>
+                                                                <KeepTogether>true</KeepTogether>
+                                                                <Paragraphs>
+                                                                  <Paragraph>
+                                                                    <TextRuns>
+                                                                      <TextRun>
+                                                                        <Value>Book Purchase</Value>
+                                                                        <Style>
+                                                                          <FontFamily>BN Dragon</FontFamily>
+                                                                          <FontSize>11pt</FontSize>
+                                                                          <Color>White</Color>
+                                                                        </Style>
+                                                                      </TextRun>
+                                                                    </TextRuns>
+                                                                    <Style />
+                                                                  </Paragraph>
+                                                                </Paragraphs>
+                                                                <rd:DefaultName>Textbox11</rd:DefaultName>
+                                                                <Style>
+                                                                  <Border>
+                                                                    <Color>#869286</Color>
+                                                                    <Style>Solid</Style>
+                                                                  </Border>
+                                                                  <BackgroundColor>#708270</BackgroundColor>
+                                                                  <PaddingLeft>2pt</PaddingLeft>
+                                                                  <PaddingRight>2pt</PaddingRight>
+                                                                  <PaddingTop>2pt</PaddingTop>
+                                                                  <PaddingBottom>2pt</PaddingBottom>
+                                                                </Style>
+                                                              </Textbox>
+                                                            </CellContents>
+                                                          </TablixHeader>
+                                                          <TablixMembers>
+                                                            <TablixMember>
+                                                              <TablixHeader>
+                                                                <Size>1.33583cm</Size>
+                                                                <CellContents>
+                                                                  <Textbox Name="Textbox9">
+                                                                    <CanGrow>true</CanGrow>
+                                                                    <KeepTogether>true</KeepTogether>
+                                                                    <Paragraphs>
+                                                                      <Paragraph>
+                                                                        <TextRuns>
+                                                                          <TextRun>
+                                                                            <Value>Lajna</Value>
+                                                                            <Style>
+                                                                              <FontFamily>BN Dragon</FontFamily>
+                                                                              <FontSize>11pt</FontSize>
+                                                                              <Color>White</Color>
+                                                                            </Style>
+                                                                          </TextRun>
+                                                                        </TextRuns>
+                                                                        <Style />
+                                                                      </Paragraph>
+                                                                    </Paragraphs>
+                                                                    <rd:DefaultName>Textbox9</rd:DefaultName>
+                                                                    <Style>
+                                                                      <Border>
+                                                                        <Color>#869286</Color>
+                                                                        <Style>Solid</Style>
+                                                                      </Border>
+                                                                      <BackgroundColor>#708270</BackgroundColor>
+                                                                      <PaddingLeft>2pt</PaddingLeft>
+                                                                      <PaddingRight>2pt</PaddingRight>
+                                                                      <PaddingTop>2pt</PaddingTop>
+                                                                      <PaddingBottom>2pt</PaddingBottom>
+                                                                    </Style>
+                                                                  </Textbox>
+                                                                </CellContents>
+                                                              </TablixHeader>
+                                                              <TablixMembers>
+                                                                <TablixMember>
+                                                                  <TablixHeader>
+                                                                    <Size>2.07667cm</Size>
+                                                                    <CellContents>
+                                                                      <Textbox Name="Textbox7">
+                                                                        <CanGrow>true</CanGrow>
+                                                                        <KeepTogether>true</KeepTogether>
+                                                                        <Paragraphs>
+                                                                          <Paragraph>
+                                                                            <TextRuns>
+                                                                              <TextRun>
+                                                                                <Value>Khuddam</Value>
+                                                                                <Style>
+                                                                                  <FontFamily>BN Dragon</FontFamily>
+                                                                                  <FontSize>11pt</FontSize>
+                                                                                  <Color>White</Color>
+                                                                                </Style>
+                                                                              </TextRun>
+                                                                            </TextRuns>
+                                                                            <Style />
+                                                                          </Paragraph>
+                                                                        </Paragraphs>
+                                                                        <rd:DefaultName>Textbox7</rd:DefaultName>
+                                                                        <Style>
+                                                                          <Border>
+                                                                            <Color>#869286</Color>
+                                                                            <Style>Solid</Style>
+                                                                          </Border>
+                                                                          <BackgroundColor>#708270</BackgroundColor>
+                                                                          <PaddingLeft>2pt</PaddingLeft>
+                                                                          <PaddingRight>2pt</PaddingRight>
+                                                                          <PaddingTop>2pt</PaddingTop>
+                                                                          <PaddingBottom>2pt</PaddingBottom>
+                                                                        </Style>
+                                                                      </Textbox>
+                                                                    </CellContents>
+                                                                  </TablixHeader>
+                                                                  <TablixMembers>
+                                                                    <TablixMember>
+                                                                      <TablixHeader>
+                                                                        <Size>1.41521cm</Size>
+                                                                        <CellContents>
+                                                                          <Textbox Name="Textbox5">
+                                                                            <CanGrow>true</CanGrow>
+                                                                            <KeepTogether>true</KeepTogether>
+                                                                            <Paragraphs>
+                                                                              <Paragraph>
+                                                                                <TextRuns>
+                                                                                  <TextRun>
+                                                                                    <Value>Ansar</Value>
+                                                                                    <Style>
+                                                                                      <FontFamily>BN Dragon</FontFamily>
+                                                                                      <FontSize>11pt</FontSize>
+                                                                                      <Color>White</Color>
+                                                                                    </Style>
+                                                                                  </TextRun>
+                                                                                </TextRuns>
+                                                                                <Style />
+                                                                              </Paragraph>
+                                                                            </Paragraphs>
+                                                                            <rd:DefaultName>Textbox5</rd:DefaultName>
+                                                                            <Style>
+                                                                              <Border>
+                                                                                <Color>#869286</Color>
+                                                                                <Style>Solid</Style>
+                                                                              </Border>
+                                                                              <BackgroundColor>#708270</BackgroundColor>
+                                                                              <PaddingLeft>2pt</PaddingLeft>
+                                                                              <PaddingRight>2pt</PaddingRight>
+                                                                              <PaddingTop>2pt</PaddingTop>
+                                                                              <PaddingBottom>2pt</PaddingBottom>
+                                                                            </Style>
+                                                                          </Textbox>
+                                                                        </CellContents>
+                                                                      </TablixHeader>
+                                                                      <TablixMembers>
+                                                                        <TablixMember>
+                                                                          <TablixHeader>
+                                                                            <Size>1.29583cm</Size>
+                                                                            <CellContents>
+                                                                              <Textbox Name="Textbox3">
+                                                                                <CanGrow>true</CanGrow>
+                                                                                <KeepTogether>true</KeepTogether>
+                                                                                <Paragraphs>
+                                                                                  <Paragraph>
+                                                                                    <TextRuns>
+                                                                                      <TextRun>
+                                                                                        <Value>Total</Value>
+                                                                                        <Style>
+                                                                                          <FontFamily>BN Dragon</FontFamily>
+                                                                                          <FontSize>11pt</FontSize>
+                                                                                          <Color>White</Color>
+                                                                                        </Style>
+                                                                                      </TextRun>
+                                                                                    </TextRuns>
+                                                                                    <Style />
+                                                                                  </Paragraph>
+                                                                                </Paragraphs>
+                                                                                <rd:DefaultName>Textbox3</rd:DefaultName>
+                                                                                <Style>
+                                                                                  <Border>
+                                                                                    <Color>#869286</Color>
+                                                                                    <Style>Solid</Style>
+                                                                                  </Border>
+                                                                                  <BackgroundColor>#708270</BackgroundColor>
+                                                                                  <PaddingLeft>2pt</PaddingLeft>
+                                                                                  <PaddingRight>2pt</PaddingRight>
+                                                                                  <PaddingTop>2pt</PaddingTop>
+                                                                                  <PaddingBottom>2pt</PaddingBottom>
+                                                                                </Style>
+                                                                              </Textbox>
+                                                                            </CellContents>
+                                                                          </TablixHeader>
+                                                                          <TablixMembers>
+                                                                            <TablixMember />
+                                                                          </TablixMembers>
+                                                                        </TablixMember>
+                                                                      </TablixMembers>
+                                                                    </TablixMember>
+                                                                  </TablixMembers>
+                                                                </TablixMember>
+                                                              </TablixMembers>
+                                                            </TablixMember>
+                                                          </TablixMembers>
+                                                        </TablixMember>
+                                                      </TablixMembers>
+                                                    </TablixMember>
+                                                  </TablixMembers>
+                                                </TablixMember>
+                                              </TablixMembers>
+                                            </TablixMember>
+                                          </TablixMembers>
+                                        </TablixMember>
+                                      </TablixMembers>
+                                    </TablixMember>
+                                  </TablixMembers>
+                                </TablixMember>
+                              </TablixMembers>
+                            </TablixMember>
+                          </TablixMembers>
+                        </TablixMember>
+                      </TablixMembers>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="MemberID">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!MemberID.Value</GroupExpression>
+                </GroupExpressions>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!MemberID.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>1.46812cm</Size>
+                <CellContents>
+                  <Textbox Name="MemberID">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!MemberID.Value</Value>
+                            <Style>
+                              <FontFamily>Calibri Light</FontFamily>
+                              <FontSize>11pt</FontSize>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>MemberID</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>#a2d1a4</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="MemberName">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!MemberName.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!MemberName.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixHeader>
+                    <Size>3.53188cm</Size>
+                    <CellContents>
+                      <Textbox Name="MemberName">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>=Fields!MemberName.Value</Value>
+                                <Style>
+                                  <FontFamily>Calibri Light</FontFamily>
+                                  <FontSize>11pt</FontSize>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>MemberName</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>#a2d1a4</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember>
+                      <Group Name="Wasiyyat">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!Wasiyyat.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Group>
+                      <SortExpressions>
+                        <SortExpression>
+                          <Value>=Fields!Wasiyyat.Value</Value>
+                        </SortExpression>
+                      </SortExpressions>
+                      <TablixHeader>
+                        <Size>1.89146cm</Size>
+                        <CellContents>
+                          <Textbox Name="Wasiyyat">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>=Fields!Wasiyyat.Value</Value>
+                                    <Style>
+                                      <FontFamily>Calibri Light</FontFamily>
+                                      <FontSize>11pt</FontSize>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style />
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Wasiyyat</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>#a2d1a4</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                      <TablixMembers>
+                        <TablixMember>
+                          <Group Name="ChandaAam">
+                            <GroupExpressions>
+                              <GroupExpression>=Fields!ChandaAam.Value</GroupExpression>
+                            </GroupExpressions>
+                          </Group>
+                          <SortExpressions>
+                            <SortExpression>
+                              <Value>=Fields!ChandaAam.Value</Value>
+                            </SortExpression>
+                          </SortExpressions>
+                          <TablixHeader>
+                            <Size>1.65333cm</Size>
+                            <CellContents>
+                              <Textbox Name="ChandaAam">
+                                <CanGrow>true</CanGrow>
+                                <KeepTogether>true</KeepTogether>
+                                <Paragraphs>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>=Fields!ChandaAam.Value</Value>
+                                        <Style>
+                                          <FontFamily>Calibri Light</FontFamily>
+                                          <FontSize>11pt</FontSize>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                </Paragraphs>
+                                <rd:DefaultName>ChandaAam</rd:DefaultName>
+                                <Style>
+                                  <Border>
+                                    <Color>#a2d1a4</Color>
+                                    <Style>Solid</Style>
+                                  </Border>
+                                  <PaddingLeft>2pt</PaddingLeft>
+                                  <PaddingRight>2pt</PaddingRight>
+                                  <PaddingTop>2pt</PaddingTop>
+                                  <PaddingBottom>2pt</PaddingBottom>
+                                </Style>
+                              </Textbox>
+                            </CellContents>
+                          </TablixHeader>
+                          <TablixMembers>
+                            <TablixMember>
+                              <Group Name="JalsaSalana">
+                                <GroupExpressions>
+                                  <GroupExpression>=Fields!JalsaSalana.Value</GroupExpression>
+                                </GroupExpressions>
+                              </Group>
+                              <SortExpressions>
+                                <SortExpression>
+                                  <Value>=Fields!JalsaSalana.Value</Value>
+                                </SortExpression>
+                              </SortExpressions>
+                              <TablixHeader>
+                                <Size>1.52104cm</Size>
+                                <CellContents>
+                                  <Textbox Name="JalsaSalana">
+                                    <CanGrow>true</CanGrow>
+                                    <KeepTogether>true</KeepTogether>
+                                    <Paragraphs>
+                                      <Paragraph>
+                                        <TextRuns>
+                                          <TextRun>
+                                            <Value>=Fields!JalsaSalana.Value</Value>
+                                            <Style>
+                                              <FontFamily>Calibri Light</FontFamily>
+                                              <FontSize>11pt</FontSize>
+                                            </Style>
+                                          </TextRun>
+                                        </TextRuns>
+                                        <Style />
+                                      </Paragraph>
+                                    </Paragraphs>
+                                    <rd:DefaultName>JalsaSalana</rd:DefaultName>
+                                    <Style>
+                                      <Border>
+                                        <Color>#a2d1a4</Color>
+                                        <Style>Solid</Style>
+                                      </Border>
+                                      <PaddingLeft>2pt</PaddingLeft>
+                                      <PaddingRight>2pt</PaddingRight>
+                                      <PaddingTop>2pt</PaddingTop>
+                                      <PaddingBottom>2pt</PaddingBottom>
+                                    </Style>
+                                  </Textbox>
+                                </CellContents>
+                              </TablixHeader>
+                              <TablixMembers>
+                                <TablixMember>
+                                  <Group Name="WJ">
+                                    <GroupExpressions>
+                                      <GroupExpression>=Fields!WJ.Value</GroupExpression>
+                                    </GroupExpressions>
+                                  </Group>
+                                  <SortExpressions>
+                                    <SortExpression>
+                                      <Value>=Fields!WJ.Value</Value>
+                                    </SortExpression>
+                                  </SortExpressions>
+                                  <TablixHeader>
+                                    <Size>1.07125cm</Size>
+                                    <CellContents>
+                                      <Textbox Name="WJ">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=Fields!WJ.Value</Value>
+                                                <Style>
+                                                  <FontFamily>Calibri Light</FontFamily>
+                                                  <FontSize>11pt</FontSize>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>WJ</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Color>#a2d1a4</Color>
+                                            <Style>Solid</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixHeader>
+                                  <TablixMembers>
+                                    <TablixMember>
+                                      <Group Name="TJ">
+                                        <GroupExpressions>
+                                          <GroupExpression>=Fields!TJ.Value</GroupExpression>
+                                        </GroupExpressions>
+                                      </Group>
+                                      <SortExpressions>
+                                        <SortExpression>
+                                          <Value>=Fields!TJ.Value</Value>
+                                        </SortExpression>
+                                      </SortExpressions>
+                                      <TablixHeader>
+                                        <Size>1.01833cm</Size>
+                                        <CellContents>
+                                          <Textbox Name="TJ">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!TJ.Value</Value>
+                                                    <Style>
+                                                      <FontFamily>Calibri Light</FontFamily>
+                                                      <FontSize>11pt</FontSize>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>TJ</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Color>#a2d1a4</Color>
+                                                <Style>Solid</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixHeader>
+                                      <TablixMembers>
+                                        <TablixMember>
+                                          <Group Name="Sadaqah">
+                                            <GroupExpressions>
+                                              <GroupExpression>=Fields!Sadaqah.Value</GroupExpression>
+                                            </GroupExpressions>
+                                          </Group>
+                                          <SortExpressions>
+                                            <SortExpression>
+                                              <Value>=Fields!Sadaqah.Value</Value>
+                                            </SortExpression>
+                                          </SortExpressions>
+                                          <TablixHeader>
+                                            <Size>1.865cm</Size>
+                                            <CellContents>
+                                              <Textbox Name="Sadaqah">
+                                                <CanGrow>true</CanGrow>
+                                                <KeepTogether>true</KeepTogether>
+                                                <Paragraphs>
+                                                  <Paragraph>
+                                                    <TextRuns>
+                                                      <TextRun>
+                                                        <Value>=Fields!Sadaqah.Value</Value>
+                                                        <Style>
+                                                          <FontFamily>Calibri Light</FontFamily>
+                                                          <FontSize>11pt</FontSize>
+                                                        </Style>
+                                                      </TextRun>
+                                                    </TextRuns>
+                                                    <Style />
+                                                  </Paragraph>
+                                                </Paragraphs>
+                                                <rd:DefaultName>Sadaqah</rd:DefaultName>
+                                                <Style>
+                                                  <Border>
+                                                    <Color>#a2d1a4</Color>
+                                                    <Style>Solid</Style>
+                                                  </Border>
+                                                  <PaddingLeft>2pt</PaddingLeft>
+                                                  <PaddingRight>2pt</PaddingRight>
+                                                  <PaddingTop>2pt</PaddingTop>
+                                                  <PaddingBottom>2pt</PaddingBottom>
+                                                </Style>
+                                              </Textbox>
+                                            </CellContents>
+                                          </TablixHeader>
+                                          <TablixMembers>
+                                            <TablixMember>
+                                              <Group Name="EidFund">
+                                                <GroupExpressions>
+                                                  <GroupExpression>=Fields!EidFund.Value</GroupExpression>
+                                                </GroupExpressions>
+                                              </Group>
+                                              <SortExpressions>
+                                                <SortExpression>
+                                                  <Value>=Fields!EidFund.Value</Value>
+                                                </SortExpression>
+                                              </SortExpressions>
+                                              <TablixHeader>
+                                                <Size>1.55126cm</Size>
+                                                <CellContents>
+                                                  <Textbox Name="EidFund">
+                                                    <CanGrow>true</CanGrow>
+                                                    <KeepTogether>true</KeepTogether>
+                                                    <Paragraphs>
+                                                      <Paragraph>
+                                                        <TextRuns>
+                                                          <TextRun>
+                                                            <Value>=Fields!EidFund.Value</Value>
+                                                            <Style>
+                                                              <FontFamily>Calibri Light</FontFamily>
+                                                              <FontSize>11pt</FontSize>
+                                                            </Style>
+                                                          </TextRun>
+                                                        </TextRuns>
+                                                        <Style />
+                                                      </Paragraph>
+                                                    </Paragraphs>
+                                                    <rd:DefaultName>EidFund</rd:DefaultName>
+                                                    <Style>
+                                                      <Border>
+                                                        <Color>#a2d1a4</Color>
+                                                        <Style>Solid</Style>
+                                                      </Border>
+                                                      <PaddingLeft>2pt</PaddingLeft>
+                                                      <PaddingRight>2pt</PaddingRight>
+                                                      <PaddingTop>2pt</PaddingTop>
+                                                      <PaddingBottom>2pt</PaddingBottom>
+                                                    </Style>
+                                                  </Textbox>
+                                                </CellContents>
+                                              </TablixHeader>
+                                              <TablixMembers>
+                                                <TablixMember>
+                                                  <Group Name="Fitrana">
+                                                    <GroupExpressions>
+                                                      <GroupExpression>=Fields!Fitrana.Value</GroupExpression>
+                                                    </GroupExpressions>
+                                                  </Group>
+                                                  <SortExpressions>
+                                                    <SortExpression>
+                                                      <Value>=Fields!Fitrana.Value</Value>
+                                                    </SortExpression>
+                                                  </SortExpressions>
+                                                  <TablixHeader>
+                                                    <Size>1.5475cm</Size>
+                                                    <CellContents>
+                                                      <Textbox Name="Fitrana">
+                                                        <CanGrow>true</CanGrow>
+                                                        <KeepTogether>true</KeepTogether>
+                                                        <Paragraphs>
+                                                          <Paragraph>
+                                                            <TextRuns>
+                                                              <TextRun>
+                                                                <Value>=Fields!Fitrana.Value</Value>
+                                                                <Style>
+                                                                  <FontFamily>Calibri Light</FontFamily>
+                                                                  <FontSize>11pt</FontSize>
+                                                                </Style>
+                                                              </TextRun>
+                                                            </TextRuns>
+                                                            <Style />
+                                                          </Paragraph>
+                                                        </Paragraphs>
+                                                        <rd:DefaultName>Fitrana</rd:DefaultName>
+                                                        <Style>
+                                                          <Border>
+                                                            <Color>#a2d1a4</Color>
+                                                            <Style>Solid</Style>
+                                                          </Border>
+                                                          <PaddingLeft>2pt</PaddingLeft>
+                                                          <PaddingRight>2pt</PaddingRight>
+                                                          <PaddingTop>2pt</PaddingTop>
+                                                          <PaddingBottom>2pt</PaddingBottom>
+                                                        </Style>
+                                                      </Textbox>
+                                                    </CellContents>
+                                                  </TablixHeader>
+                                                  <TablixMembers>
+                                                    <TablixMember>
+                                                      <Group Name="Zakat">
+                                                        <GroupExpressions>
+                                                          <GroupExpression>=Fields!Zakat.Value</GroupExpression>
+                                                        </GroupExpressions>
+                                                      </Group>
+                                                      <SortExpressions>
+                                                        <SortExpression>
+                                                          <Value>=Fields!Zakat.Value</Value>
+                                                        </SortExpression>
+                                                      </SortExpressions>
+                                                      <TablixHeader>
+                                                        <Size>1.30938cm</Size>
+                                                        <CellContents>
+                                                          <Textbox Name="Zakat">
+                                                            <CanGrow>true</CanGrow>
+                                                            <KeepTogether>true</KeepTogether>
+                                                            <Paragraphs>
+                                                              <Paragraph>
+                                                                <TextRuns>
+                                                                  <TextRun>
+                                                                    <Value>=Fields!Zakat.Value</Value>
+                                                                    <Style>
+                                                                      <FontFamily>Calibri Light</FontFamily>
+                                                                      <FontSize>11pt</FontSize>
+                                                                    </Style>
+                                                                  </TextRun>
+                                                                </TextRuns>
+                                                                <Style />
+                                                              </Paragraph>
+                                                            </Paragraphs>
+                                                            <rd:DefaultName>Zakat</rd:DefaultName>
+                                                            <Style>
+                                                              <Border>
+                                                                <Color>#a2d1a4</Color>
+                                                                <Style>Solid</Style>
+                                                              </Border>
+                                                              <PaddingLeft>2pt</PaddingLeft>
+                                                              <PaddingRight>2pt</PaddingRight>
+                                                              <PaddingTop>2pt</PaddingTop>
+                                                              <PaddingBottom>2pt</PaddingBottom>
+                                                            </Style>
+                                                          </Textbox>
+                                                        </CellContents>
+                                                      </TablixHeader>
+                                                      <TablixMembers>
+                                                        <TablixMember>
+                                                          <Group Name="BookPurchase">
+                                                            <GroupExpressions>
+                                                              <GroupExpression>=Fields!BookPurchase.Value</GroupExpression>
+                                                            </GroupExpressions>
+                                                          </Group>
+                                                          <SortExpressions>
+                                                            <SortExpression>
+                                                              <Value>=Fields!BookPurchase.Value</Value>
+                                                            </SortExpression>
+                                                          </SortExpressions>
+                                                          <TablixHeader>
+                                                            <Size>1.98437cm</Size>
+                                                            <CellContents>
+                                                              <Textbox Name="BookPurchase">
+                                                                <CanGrow>true</CanGrow>
+                                                                <KeepTogether>true</KeepTogether>
+                                                                <Paragraphs>
+                                                                  <Paragraph>
+                                                                    <TextRuns>
+                                                                      <TextRun>
+                                                                        <Value>=Fields!BookPurchase.Value</Value>
+                                                                        <Style>
+                                                                          <FontFamily>Calibri Light</FontFamily>
+                                                                          <FontSize>11pt</FontSize>
+                                                                        </Style>
+                                                                      </TextRun>
+                                                                    </TextRuns>
+                                                                    <Style />
+                                                                  </Paragraph>
+                                                                </Paragraphs>
+                                                                <rd:DefaultName>BookPurchase</rd:DefaultName>
+                                                                <Style>
+                                                                  <Border>
+                                                                    <Color>#a2d1a4</Color>
+                                                                    <Style>Solid</Style>
+                                                                  </Border>
+                                                                  <PaddingLeft>2pt</PaddingLeft>
+                                                                  <PaddingRight>2pt</PaddingRight>
+                                                                  <PaddingTop>2pt</PaddingTop>
+                                                                  <PaddingBottom>2pt</PaddingBottom>
+                                                                </Style>
+                                                              </Textbox>
+                                                            </CellContents>
+                                                          </TablixHeader>
+                                                          <TablixMembers>
+                                                            <TablixMember>
+                                                              <Group Name="Lajna">
+                                                                <GroupExpressions>
+                                                                  <GroupExpression>=Fields!Lajna.Value</GroupExpression>
+                                                                </GroupExpressions>
+                                                              </Group>
+                                                              <SortExpressions>
+                                                                <SortExpression>
+                                                                  <Value>=Fields!Lajna.Value</Value>
+                                                                </SortExpression>
+                                                              </SortExpressions>
+                                                              <TablixHeader>
+                                                                <Size>1.33583cm</Size>
+                                                                <CellContents>
+                                                                  <Textbox Name="Lajna">
+                                                                    <CanGrow>true</CanGrow>
+                                                                    <KeepTogether>true</KeepTogether>
+                                                                    <Paragraphs>
+                                                                      <Paragraph>
+                                                                        <TextRuns>
+                                                                          <TextRun>
+                                                                            <Value>=Fields!Lajna.Value</Value>
+                                                                            <Style>
+                                                                              <FontFamily>Calibri Light</FontFamily>
+                                                                              <FontSize>11pt</FontSize>
+                                                                            </Style>
+                                                                          </TextRun>
+                                                                        </TextRuns>
+                                                                        <Style />
+                                                                      </Paragraph>
+                                                                    </Paragraphs>
+                                                                    <rd:DefaultName>Lajna</rd:DefaultName>
+                                                                    <Style>
+                                                                      <Border>
+                                                                        <Color>#a2d1a4</Color>
+                                                                        <Style>Solid</Style>
+                                                                      </Border>
+                                                                      <PaddingLeft>2pt</PaddingLeft>
+                                                                      <PaddingRight>2pt</PaddingRight>
+                                                                      <PaddingTop>2pt</PaddingTop>
+                                                                      <PaddingBottom>2pt</PaddingBottom>
+                                                                    </Style>
+                                                                  </Textbox>
+                                                                </CellContents>
+                                                              </TablixHeader>
+                                                              <TablixMembers>
+                                                                <TablixMember>
+                                                                  <Group Name="Khuddam">
+                                                                    <GroupExpressions>
+                                                                      <GroupExpression>=Fields!Khuddam.Value</GroupExpression>
+                                                                    </GroupExpressions>
+                                                                  </Group>
+                                                                  <SortExpressions>
+                                                                    <SortExpression>
+                                                                      <Value>=Fields!Khuddam.Value</Value>
+                                                                    </SortExpression>
+                                                                  </SortExpressions>
+                                                                  <TablixHeader>
+                                                                    <Size>2.07667cm</Size>
+                                                                    <CellContents>
+                                                                      <Textbox Name="Khuddam">
+                                                                        <CanGrow>true</CanGrow>
+                                                                        <KeepTogether>true</KeepTogether>
+                                                                        <Paragraphs>
+                                                                          <Paragraph>
+                                                                            <TextRuns>
+                                                                              <TextRun>
+                                                                                <Value>=Fields!Khuddam.Value</Value>
+                                                                                <Style>
+                                                                                  <FontFamily>Calibri Light</FontFamily>
+                                                                                  <FontSize>11pt</FontSize>
+                                                                                </Style>
+                                                                              </TextRun>
+                                                                            </TextRuns>
+                                                                            <Style />
+                                                                          </Paragraph>
+                                                                        </Paragraphs>
+                                                                        <rd:DefaultName>Khuddam</rd:DefaultName>
+                                                                        <Style>
+                                                                          <Border>
+                                                                            <Color>#a2d1a4</Color>
+                                                                            <Style>Solid</Style>
+                                                                          </Border>
+                                                                          <PaddingLeft>2pt</PaddingLeft>
+                                                                          <PaddingRight>2pt</PaddingRight>
+                                                                          <PaddingTop>2pt</PaddingTop>
+                                                                          <PaddingBottom>2pt</PaddingBottom>
+                                                                        </Style>
+                                                                      </Textbox>
+                                                                    </CellContents>
+                                                                  </TablixHeader>
+                                                                  <TablixMembers>
+                                                                    <TablixMember>
+                                                                      <Group Name="Ansar">
+                                                                        <GroupExpressions>
+                                                                          <GroupExpression>=Fields!Ansar.Value</GroupExpression>
+                                                                        </GroupExpressions>
+                                                                      </Group>
+                                                                      <SortExpressions>
+                                                                        <SortExpression>
+                                                                          <Value>=Fields!Ansar.Value</Value>
+                                                                        </SortExpression>
+                                                                      </SortExpressions>
+                                                                      <TablixHeader>
+                                                                        <Size>1.41521cm</Size>
+                                                                        <CellContents>
+                                                                          <Textbox Name="Ansar">
+                                                                            <CanGrow>true</CanGrow>
+                                                                            <KeepTogether>true</KeepTogether>
+                                                                            <Paragraphs>
+                                                                              <Paragraph>
+                                                                                <TextRuns>
+                                                                                  <TextRun>
+                                                                                    <Value>=Fields!Ansar.Value</Value>
+                                                                                    <Style>
+                                                                                      <FontFamily>Calibri Light</FontFamily>
+                                                                                      <FontSize>11pt</FontSize>
+                                                                                    </Style>
+                                                                                  </TextRun>
+                                                                                </TextRuns>
+                                                                                <Style />
+                                                                              </Paragraph>
+                                                                            </Paragraphs>
+                                                                            <rd:DefaultName>Ansar</rd:DefaultName>
+                                                                            <Style>
+                                                                              <Border>
+                                                                                <Color>#a2d1a4</Color>
+                                                                                <Style>Solid</Style>
+                                                                              </Border>
+                                                                              <PaddingLeft>2pt</PaddingLeft>
+                                                                              <PaddingRight>2pt</PaddingRight>
+                                                                              <PaddingTop>2pt</PaddingTop>
+                                                                              <PaddingBottom>2pt</PaddingBottom>
+                                                                            </Style>
+                                                                          </Textbox>
+                                                                        </CellContents>
+                                                                      </TablixHeader>
+                                                                      <TablixMembers>
+                                                                        <TablixMember>
+                                                                          <Group Name="Total">
+                                                                            <GroupExpressions>
+                                                                              <GroupExpression>=Fields!Total.Value</GroupExpression>
+                                                                            </GroupExpressions>
+                                                                          </Group>
+                                                                          <SortExpressions>
+                                                                            <SortExpression>
+                                                                              <Value>=Fields!Total.Value</Value>
+                                                                            </SortExpression>
+                                                                          </SortExpressions>
+                                                                          <TablixHeader>
+                                                                            <Size>1.29583cm</Size>
+                                                                            <CellContents>
+                                                                              <Textbox Name="Total">
+                                                                                <CanGrow>true</CanGrow>
+                                                                                <KeepTogether>true</KeepTogether>
+                                                                                <Paragraphs>
+                                                                                  <Paragraph>
+                                                                                    <TextRuns>
+                                                                                      <TextRun>
+                                                                                        <Value>=Fields!Total.Value</Value>
+                                                                                        <Style>
+                                                                                          <FontFamily>Calibri Light</FontFamily>
+                                                                                          <FontSize>11pt</FontSize>
+                                                                                        </Style>
+                                                                                      </TextRun>
+                                                                                    </TextRuns>
+                                                                                    <Style />
+                                                                                  </Paragraph>
+                                                                                </Paragraphs>
+                                                                                <rd:DefaultName>Total</rd:DefaultName>
+                                                                                <Style>
+                                                                                  <Border>
+                                                                                    <Color>#a2d1a4</Color>
+                                                                                    <Style>Solid</Style>
+                                                                                  </Border>
+                                                                                  <PaddingLeft>2pt</PaddingLeft>
+                                                                                  <PaddingRight>2pt</PaddingRight>
+                                                                                  <PaddingTop>2pt</PaddingTop>
+                                                                                  <PaddingBottom>2pt</PaddingBottom>
+                                                                                </Style>
+                                                                              </Textbox>
+                                                                            </CellContents>
+                                                                          </TablixHeader>
+                                                                          <TablixMembers>
+                                                                            <TablixMember>
+                                                                              <Group Name="Details" />
+                                                                            </TablixMember>
+                                                                          </TablixMembers>
+                                                                        </TablixMember>
+                                                                      </TablixMembers>
+                                                                    </TablixMember>
+                                                                  </TablixMembers>
+                                                                </TablixMember>
+                                                              </TablixMembers>
+                                                            </TablixMember>
+                                                          </TablixMembers>
+                                                        </TablixMember>
+                                                      </TablixMembers>
+                                                    </TablixMember>
+                                                  </TablixMembers>
+                                                </TablixMember>
+                                              </TablixMembers>
+                                            </TablixMember>
+                                          </TablixMembers>
+                                        </TablixMember>
+                                      </TablixMembers>
+                                    </TablixMember>
+                                  </TablixMembers>
+                                </TablixMember>
+                              </TablixMembers>
+                            </TablixMember>
+                          </TablixMembers>
+                        </TablixMember>
+                      </TablixMembers>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Filters>
+          <Filter>
+            <FilterExpression>=Month(Fields!RecieptDate.Value)</FilterExpression>
+            <Operator>Equal</Operator>
+            <FilterValues>
+              <FilterValue>=Month(Today())</FilterValue>
+            </FilterValues>
+          </Filter>
+        </Filters>
+        <SortExpressions>
+          <SortExpression>
+            <Value>=Fields!MemberID.Value</Value>
+          </SortExpression>
+        </SortExpressions>
+        <Height>1.64979cm</Height>
+        <Width>26.61585cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2in</Height>
+    <Style>
+      <BackgroundColor>#8ec292</BackgroundColor>
+    </Style>
+  </Body>
+  <Width>10.47868in</Width>
+  <Page>
+    <PageHeader>
+      <Height>2.54cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Image Name="Image1">
+          <Source>Embedded</Source>
+          <Value>AMCLOGO</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.07056cm</Top>
+          <Height>2.46944cm</Height>
+          <Width>2.55417cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="Textbox20">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Statement of Income Report</Value>
+                  <Style>
+                    <FontFamily>Tele-Marines</FontFamily>
+                    <FontSize>20pt</FontSize>
+                    <Color>#8ec292</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox19</rd:DefaultName>
+          <Top>0.87968cm</Top>
+          <Left>2.62473cm</Left>
+          <Height>0.82553cm</Height>
+          <Width>17.7882cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="ExecutionTime">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Globals!ExecutionTime</Value>
+                  <Style>
+                    <Color>White</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>ExecutionTime</rd:DefaultName>
+          <Top>0.07056cm</Top>
+          <Left>21.37971cm</Left>
+          <Height>0.6cm</Height>
+          <Width>4.19197cm</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+        <BackgroundColor>Black</BackgroundColor>
+      </Style>
+    </PageHeader>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="AMCDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>a1153e46-d59d-4f08-8fb7-ee456f2d7bdc</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>AMCDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="RecieptNo">
+          <DataField>RecieptNo</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MemberID">
+          <DataField>MemberID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MemberName">
+          <DataField>MemberName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RecieptDate">
+          <DataField>RecieptDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Wasiyyat">
+          <DataField>Wasiyyat</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ChandaAam">
+          <DataField>ChandaAam</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="JalsaSalana">
+          <DataField>JalsaSalana</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="WJ">
+          <DataField>WJ</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TJ">
+          <DataField>TJ</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Sadaqah">
+          <DataField>Sadaqah</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="EidFund">
+          <DataField>EidFund</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Fitrana">
+          <DataField>Fitrana</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Zakat">
+          <DataField>Zakat</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="BookPurchase">
+          <DataField>BookPurchase</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Lajna">
+          <DataField>Lajna</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Khuddam">
+          <DataField>Khuddam</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Ansar">
+          <DataField>Ansar</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Total">
+          <DataField>Total</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>AMCDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Mubariz\Desktop\AMC\AMC VB11\AMC\AMC\AMCDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>IncomeLog</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>IncomeLogTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="AMCLOGO">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>140a647d-349f-49f7-9cce-c4b91335cd05</rd:ReportID>
+</Report>

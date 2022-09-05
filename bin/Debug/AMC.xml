@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AMC
+</name>
+</assembly>
+<members>
+<member name="T:AMC.AMCDataSet.EmployeeDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.ExpenseLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.IncomeLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.MemberDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.MonthlyExpensesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.YearlyExpensesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.EmployeeDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.ExpenseLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.IncomeLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.MemberDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.MonthlyExpensesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.YearlyExpensesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AMC.AMCDataSet.EmployeeDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AMC.AMCDataSet.ExpenseLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AMC.AMCDataSet.IncomeLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AMC.AMCDataSet.MemberDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AMC.AMCDataSet.MonthlyExpensesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AMC.AMCDataSet.YearlyExpensesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AMC.AMCDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.EmployeeDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.ExpenseLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.IncomeLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.MemberDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.MonthlyExpensesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.YearlyExpensesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AMC.AMCDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AMC.AMCDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AMC.AMCDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AMC.AMCDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AMC.AMCDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AMC.AMCDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AMC.AMCDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AMC.AMCDataSetTableAdapters.TableAdapterManager.UpdateAll(AMC.AMCDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AMC.AMCDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:AMC.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AMC.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AMC.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
